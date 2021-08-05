@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Feadbox\\Support": "src/"
+            "Feadbox\\Support\\": "src/"
         }
     }
 }
