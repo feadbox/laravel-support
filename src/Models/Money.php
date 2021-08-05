@@ -2,7 +2,7 @@
 
 namespace Feadbox\Support\Models;
 
-use App\Models\Model;
+use Illuminate\Database\Eloquent\Model;
 use Feadbox\Support\Components\Money as MoneyComponent;
 
 class Money extends Model
