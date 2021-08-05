@@ -1,6 +1,6 @@
 {
-    "name": "feadbox/laravel-enum",
-    "description": "Laravel enum casting",
+    "name": "feadbox/laravel-support",
+    "description": "Laravel helpers.",
     "type": "library",
     "license": "MIT",
     "authors": [
