@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "Money": "Feadbox\\Support\\Money"
+                "Money": "Feadbox\\Support\\Components\\Money"
             }
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Feadbox\Support;
+namespace Feadbox\Support\Components;
 
 class Money
 {
