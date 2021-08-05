@@ -1,0 +1,21 @@
+{
+    "name": "feadbox/laravel-enum",
+    "description": "Laravel enum casting",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davut Kember",
+            "email": "davutkmbr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "bensampo/laravel-enum": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Feadbox\\Support": "src/"
+        }
+    }
+}
