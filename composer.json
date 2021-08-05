@@ -17,5 +17,12 @@
         "psr-4": {
             "Feadbox\\Support\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "Money": "Feadbox\\Support\\Money"
+            }
+        }
     }
 }
