@@ -15,6 +15,8 @@ class MoneyCast implements CastsAttributes
 
     public function set($model, $key, $value, $attributes)
     {
-        return MoneyComponent::toFloat($value);
+        return MoneyComponent::convertToCents(
+            MoneyComponent::toFloat($value)
+        );
     }
 }
