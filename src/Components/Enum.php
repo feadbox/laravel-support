@@ -1,6 +1,6 @@
 <?php
 
-namespace Feadbox\Support;
+namespace Feadbox\Support\Components;
 
 use BenSampo\Enum\Enum as Base;
 use Illuminate\Support\Str;
