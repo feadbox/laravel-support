@@ -20,7 +20,7 @@ class Money
             return 0;
         }
 
-        $money = preg_replace('/[^0-9.]/', '', $money);
+        $money = preg_replace('/[^0-9-.]/', '', $money);
 
         return (float) str_replace(',', '', $money);
     }
